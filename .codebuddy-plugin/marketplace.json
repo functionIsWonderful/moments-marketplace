@@ -1,0 +1,28 @@
+{
+  "name": "moments-marketplace",
+  "description": "朋友圈专家市场 - 专为教练/咨询师设计的朋友圈内容专家集合",
+  "owner": {
+    "name": "小君",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "moments-writer",
+      "source": "./plugins/moments-writer",
+      "description": "Crafts engaging WeChat Moments posts with a personal, story-driven touch.",
+      "version": "1.0.0",
+      "category": "content",
+      "keywords": ["朋友圈", "文案", "社交表达"],
+      "license": "MIT"
+    },
+    {
+      "name": "moments-director",
+      "source": "./plugins/moments-director",
+      "description": "A WeChat Moments content director specialized in serial-style marketing for coaches and consultants.",
+      "version": "1.0.0",
+      "category": "marketing",
+      "keywords": ["朋友圈", "营销", "连续剧式"],
+      "license": "MIT"
+    }
+  ]
+}

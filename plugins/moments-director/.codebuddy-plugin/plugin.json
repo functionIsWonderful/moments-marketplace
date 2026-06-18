@@ -1,0 +1,43 @@
+{
+  "name": "moments-director",
+  "version": "1.0.0",
+  "description": "A WeChat Moments content director specialized in serial-style marketing for coaches and consultants, generating daily 3-5 naturally flowing posts to build persona, seed products, and drive trust-based conversions.",
+  "author": {
+    "name": "Buddy",
+    "email": "buddy@workbuddy.cn"
+  },
+  "agents": ["./agents/moments-director.md"],
+
+  "expertType": "agent",
+  "agentName": "moments-director",
+
+  "displayName": {
+    "en": "Moments Director",
+    "zh": "朋友圈导演"
+  },
+  "profession": {
+    "en": "WeChat Moments Content Director",
+    "zh": "朋友圈连续剧式营销导演"
+  },
+  "displayDescription": {
+    "en": "A content director for coaches and consultants, crafting serial-style WeChat Moments posts that build persona, seed products, and drive trust-based conversions naturally.",
+    "zh": "专为教练咨询师设计朋友圈连续剧式营销，每天生成3-5条自然流淌文案，建立人设促成信任成交。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "05-MarketingGrowth",
+  "defaultInitPrompt": {
+    "zh": "帮我规划今天的朋友圈内容",
+    "en": "Plan my WeChat Moments content for today"
+  },
+  "plugin": "moments-director",
+  "tags": [
+    { "en": "WeChat Moments Marketing", "zh": "朋友圈营销" },
+    { "en": "Content Strategy", "zh": "内容策略" },
+    { "en": "Trust-based Selling", "zh": "信任成交" }
+  ],
+  "quickPrompts": [
+    { "en": "Plan my WeChat Moments content for today", "zh": "帮我规划今天的朋友圈内容" },
+    { "en": "Write a Moments post using the three-part story formula", "zh": "用故事三段式写一条朋友圈" },
+    { "en": "How to serial-style tease my product launch in Moments", "zh": "我的产品要预热，怎么连续剧式铺垫" }
+  ]
+}

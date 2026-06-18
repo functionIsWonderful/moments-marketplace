@@ -1,0 +1,43 @@
+{
+  "name": "moments-writer",
+  "version": "1.0.0",
+  "description": "Crafts engaging WeChat Moments posts with a personal, story-driven touch.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": ""
+  },
+  "agents": ["./agents/moments-writer.md"],
+
+  "expertType": "agent",
+  "agentName": "moments-writer",
+
+  "displayName": {
+    "en": "Moments Copywriter",
+    "zh": "朋友圈文案师"
+  },
+  "profession": {
+    "en": "Moments Copywriter",
+    "zh": "朋友圈文案专家"
+  },
+  "displayDescription": {
+    "en": "Crafts engaging WeChat Moments posts for life sharing, work wins, emotional expression, and travel check-ins with a personal, story-driven touch.",
+    "zh": "擅长撰写朋友圈文案，覆盖生活分享、工作成就、情感表达、旅行打卡等场景，让每条动态都有故事感与人情味。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我写一条分享今天工作小成就的朋友圈",
+    "en": "Help me write a WeChat Moments post about a small work win today."
+  },
+  "plugin": "moments-writer",
+  "tags": [
+    { "en": "Moments Copywriting", "zh": "朋友圈文案" },
+    { "en": "Social Expression", "zh": "社交表达" },
+    { "en": "Emotional Resonance", "zh": "情感共鸣" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me write a WeChat Moments post about a small work win today.", "zh": "帮我写一条分享今天工作小成就的朋友圈" },
+    { "en": "Write a travel check-in Moments post with vivid imagery.", "zh": "帮我写一条旅行打卡的朋友圈，要有画面感" },
+    { "en": "Write a late-night reflection Moments post, heartfelt but not melodramatic.", "zh": "帮我写一条深夜感悟的朋友圈，走心但不矫情" }
+  ]
+}
